@@ -9,7 +9,7 @@ lazy val root = project
   )
 
 libraryDependencies ++= Seq(
-  "com.thesamet.scalapb" %% "scalapb-runtime" % "0.10.11" % "protobuf",
+  "com.thesamet.scalapb" %% "scalapb-runtime" % "0.11.4" % "protobuf",
   "com.thesamet.scalapb.common-protos" %% "proto-google-common-protos-scalapb_0.10" % "1.18.1-1",
   "com.thesamet.scalapb.common-protos" %% "proto-google-common-protos-scalapb_0.10" % "1.18.1-1" % "protobuf"
 )
